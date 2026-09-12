@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using BuildAnalyzer.Core;
 
 namespace PR1
 {
@@ -10,6 +7,7 @@ namespace PR1
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

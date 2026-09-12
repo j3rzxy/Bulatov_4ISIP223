@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36811.4 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PR1", "PR1\PR1.csproj", "{9FEE8FFF-9F7E-4423-95B2-12DC685AB94D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildAnalyzer.App", "PR1\BuildAnalyzer.App.csproj", "{9FEE8FFF-9F7E-4423-95B2-12DC685AB94D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildAnalyzer.Core", "PR1_Library\BuildAnalyzer.Core.csproj", "{B6BC0340-3F27-4F76-8197-13FCEEAE9BA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9FEE8FFF-9F7E-4423-95B2-12DC685AB94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FEE8FFF-9F7E-4423-95B2-12DC685AB94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FEE8FFF-9F7E-4423-95B2-12DC685AB94D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6BC0340-3F27-4F76-8197-13FCEEAE9BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6BC0340-3F27-4F76-8197-13FCEEAE9BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6BC0340-3F27-4F76-8197-13FCEEAE9BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6BC0340-3F27-4F76-8197-13FCEEAE9BA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
